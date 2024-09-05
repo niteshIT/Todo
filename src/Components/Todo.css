@@ -1,0 +1,89 @@
+.main-heading{
+    font-size: 4.6rem;
+    margin-bottom: 3.2rem ;
+    letter-spacing: 1px;
+  }
+  .date-heading{
+    font-size: 3.6rem;
+    margin-bottom: 3.2rem ;
+    letter-spacing: 5px;
+  }
+  .inputclass{
+    border-radius: 10px;
+    & .input{
+      width: 200px;
+      height: 40px;
+      border-radius: 10px;
+      border: 3px solid brown;
+      padding: 0 10px;
+      margin-bottom: 30px;
+    }
+    & .inputbtn{
+      width: 60px;
+      height: 40px;
+      border-radius: 10px;
+      background-color: antiquewhite;
+      font-size: 15px;
+      font-weight: bold;
+      transition: all .3s linear;
+      &:hover{
+        background-color: rgb(105, 100, 94);
+      }
+      
+    }
+  
+    
+  }
+  .section-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+      & .listItem{
+        width: 400px;
+        height: 40px;
+        padding: 8px;
+        line-height: 1.5;
+        color: black;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        margin: 8px;
+       
+        & span{
+          overflow: hidden;
+        }
+        
+      }
+      & listIcon{
+        display: inline-block;
+        
+      }
+    
+    
+  
+  }
+  
+  .grid {
+    display: grid;
+    gap: 4.6rem;
+  }
+  
+  .grid-two--cols {
+    grid-template-columns: 3fr 1fr;
+  }
+  
+  .delBtn{
+    width: 10rem;
+    height: 4rem;
+    background-color: antiquewhite;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 1.4rem;
+  
+  
+  }
+  .checkList{
+    text-decoration: line-through;
+  }
+  
